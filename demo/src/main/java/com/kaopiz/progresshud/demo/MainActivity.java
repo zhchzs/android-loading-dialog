@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //noinspection deprecation
                 hud = KProgressHUD.create(this)
                         .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
-                        .setWindowColor(getResources().getColor(R.color.colorPrimary))
+                        .setWindowColor(getResources().getColor(R.color.colorTest))
                         .setAnimationSpeed(2);
                 scheduleDismiss();
                 break;
